@@ -372,7 +372,9 @@
                 "publicNetworkAccess": "Enabled",
                 "cors": {
                     "allowedOrigins": [
-                        "https://portal.azure.com"
+                        "https://portal.azure.com",
+                        "http://localhost:4200",
+                        "https://company.felix-bauer.at"
                     ],
                     "supportCredentials": false
                 },
